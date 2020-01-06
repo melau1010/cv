@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Eurostile&display=swap');
+body {
+    height: 100%;
+    overflow: scroll;
+    font-family: "Eurostile", Century Gothic, sans-serif;
+    background: radial-gradient(circle at bottom, navy 0, black 100%);
+
+}
+
+.space {
+    background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
+    border: 1px transparent purple;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: auto;
+  }
+
+    .particles-wrapper {
+        background-color: #222;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+
+.caption {
+    position: relative;
+    right: 10px;
+}
+
+#caption2 {
+    font-family: "Lucida Console", Monaco, monospace;
+    padding-top: 100px;
+    color: white;
+    left: 310px;
+    position: absolute;
+    font-weight: bold;
+    top: 75px;
+    right: 350px;
+    display: block;
+
+}
+
+#caption2 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid transparent; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+        typing 2s steps(100),
+        blink-caret 0s step-end, infinite;
+       
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: transparent; }
+      }
+
+      #ProfilePic {
+        border-color: cadetblue;
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #caption3 {
+        font-family: "Lucida Console", Monaco, monospace;
+        padding-top: 100px;
+        color: white;
+        left: 310px;
+        position: absolute;
+        font-weight: bold;
+        top: 150px;
+        right: 350px;
+        display: block;
+    }
+
+    #caption3 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid transparent; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+        typing 2s steps(100),
+        blink-caret 0s step-end, infinite;
+       
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: transparent; }
+      }
+
+      #ProfilePic {
+        border-color: cadetblue;
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+    
+    #name {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-weight: bold;
+        left: 200px;
+        margin-bottom: 60px;
+        bottom: 20px;
+        
+       
+    }
+
+    h2 {
+        line-height: 100px;
+    }
+   
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-right: 150px solid transparent;
+    border-bottom: 259.8px solid #7e5545;
+    border-left: 150px solid transparent;
+    position: absolute;
+    background-color: transparent;
+    top: 600px;
+    left: 450px;
+    opacity: 30%;
+}
+
+
+.techwriter {
+    border: 1px solid transparent;
+    height: 100px;
+    width: 200px;
+    color: white;
+    position: relative;
+    top: 500px;
+    left: 250px;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.guidance {
+    border: 1px solid transparent;
+    height: 100px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    top: 800px;
+    left: 700px;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+   }
+
+.hybrid {
+    border: 1px solid transparent;
+    height: 100px;
+    width: 250px;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 475px;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    
+   }
+
+.techwriter, .hybrid, .guidance, .menu_education, .menu_skills, .menu_hobbies, .menu_contact, .menu_writing, .triangle {
+        margin-top: 25px;
+        text-align: center;
+        animation: fadein 4s;
+        -moz-animation: fadein 4s; /* Firefox */
+        -webkit-animation: fadein 4s; /* Safari and Chrome */
+        -o-animation: fadein 4s; /* Opera */
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+.menu_education {
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    top: 400px;
+    left: 310px;
+
+}
+
+.menu_contact {
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    top: 400px;
+    left: 960px;
+    
+}
+
+.menu_skills {
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    top: 400px;
+    left: 490px;
+
+}
+
+.menu_hobbies {
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    top: 400px;
+    left: 640px;
+}
+
+.menu_writing {
+    position: absolute;
+    border-color: white;
+    border-width: 2px;
+    top: 400px;
+    left: 800px;
+
+}
+
+#contact_link, #skills_link, #hobbies_link, #contact_link, #edu_link, #writing_link {
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#contact_link, #skills_link, #hobbies_link, #contact_link, #writing_link, #edu_link:visited {
+    color: lightblue;
+}
+
+
+#education {
+    position: relative;
+    left: 175px;
+}
+
+#NYU {
+    float: left;
+    width: -70%;
+    height: -70%; 
+
+}
+
+.NYUdiv {
+    height: 100px;
+    width: auto;
+    position: relative;
+    left: 85px;
+    top: 50px;
+}
+
+.EDUdiv {
+    position: relative;
+    bottom: 50px;
+    padding-left: 290px;
+}
+
+.summary {
+    position: absolute;
+    right: 300px;
+    left: 265px;
+    color: whitesmoke;
+    top: 400px;
+    
+}
+
+.schools {
+    position: absolute;
+    bottom: 50px;
+    float: left;
+}
+
+.fise {
+    width: 5%;
+    height: 5%;
+}
+
+
+#fise {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 100px;
+  
+}
+
+#logo {
+    position: relative;
+    left: 65px;
+    top: 75px;
+    width: 125px;
+    height: auto;
+}
+
+.worktitle {
+    position: relative;
+    left: 290px;
+}
+
+.workheader {
+    position: relative;
+    left: 225px;
+}
+
+.workdata {
+    position: relative;
+    left: 235px;
+}
+
+.fise {
+    position: relative;
+    bottom: 80px;
+    right: 60px;
+    float: left;
+}
+
+
+.exptable {
+    position: relative;
+    left: 280px;
+}
+
+.workbox {
+    position: relative;
+    bottom: 75px;
+    left: 55px;
+    
+}
+
+hr.style7 {
+
+        overflow: visible;
+        height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px 0 0 0;
+        border-radius: 20px;
+}
+
+.footer {
+
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 1000px;
+    font-family: "Lucida Console", Monaco, monospace;
+    right: 30px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+a:active {
+    color: pink;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
